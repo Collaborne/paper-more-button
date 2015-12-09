@@ -1,0 +1,43 @@
+<link rel="import" href="../polymer/polymer.html">
+<link rel="import" href="../paper-button/paper-button.html">
+<link rel="import" href="../paper-spinner/paper-spinner-lite.html">
+
+<dom-module id="paper-more-button">
+
+	<template>
+		<paper-button hidden=[[!_showMore(hasMore,loading)]] on-tap='_tapMore'><content></content></paper-button>
+   	    <paper-spinner-lite active=[[loading]]></paper-spinner-lite>
+	</template>
+
+</dom-module>
+
+<script>
+
+(function() {
+
+	Polymer({
+		is: 'paper-more-button',
+
+	    properties: {
+			hasMore: {
+				type: Boolean,
+				value: false
+			},
+			loading: {
+				type: Boolean,
+				value: false
+			}
+		},
+		
+		// Private methods
+		_tapMore: function() {
+			this.fire('tap-more');
+		},
+		_showMore: function(hasMore, loading) {
+			return hasMore && !loading;
+		}
+	});
+
+})();
+
+</script>
