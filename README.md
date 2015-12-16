@@ -1,4 +1,4 @@
-paper-more-button [![Bower version](https://badge.fury.io/bo/paper-more-button.svg)](http://badge.fury.io/bo/paper-more-button)
+paper-more-button [![Bower version](https://badge.fury.io/bo/paper-more-button.svg)](http://badge.fury.io/bo/paper-more-button) [![Travis state](https://travis-ci.org/Collaborne/paper-more-button.svg?branch=master)](https://travis-ci.org/Collaborne/paper-more-button)
 =========
 
 A material design button to load more items in a list. This element is built for [Polymer 1.x](https://www.polymer-project.org).
@@ -22,11 +22,6 @@ Property     | Type    | Description
 ```html
 <paper-more-button has-more=[[hasMore]] loading=[[loading]]>More</paper-more-button>
 ```
-
-
-## Continuous integration
-
-[Travis-CI](https://travis-ci.org/Collaborne/paper-more-button) [![Travis state](https://travis-ci.org/Collaborne/paper-more-button.svg?branch=master)](https://travis-ci.org/Collaborne/paper-more-button)
 
 
 ## License
