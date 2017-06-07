@@ -3,7 +3,7 @@
   "authors": [
     "collaborne"
   ],
-  "description": "A material design button to load more items in a list (Polymer 1.x)",
+  "description": "A material design button to load more items in a list (Polymer)",
   "main": "paper-more-button.html",
   "keywords": [
     "web-components",
