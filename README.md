@@ -1,4 +1,7 @@
 paper-more-button [![Bower version](https://badge.fury.io/bo/paper-more-button.svg)](http://badge.fury.io/bo/paper-more-button) [![Travis state](https://travis-ci.org/Collaborne/paper-more-button.svg?branch=master)](https://travis-ci.org/Collaborne/paper-more-button) [![Published on webcomponents.org](https://img.shields.io/badge/webcomponents.org-published-blue.svg)](https://www.webcomponents.org/element/Collaborne/paper-more-button)
+
+[![Published on Vaadin  Directory](https://img.shields.io/badge/Vaadin%20Directory-published-00b4f0.svg)](https://vaadin.com/directory/component/Collabornepaper-more-button)
+[![Stars on vaadin.com/directory](https://img.shields.io/vaadin-directory/star/Collabornepaper-more-button.svg)](https://vaadin.com/directory/component/Collabornepaper-more-button)
 =========
 
 A material design button to load more items in a list. This element is built for [Polymer](https://www.polymer-project.org).
